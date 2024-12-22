@@ -1,0 +1,66 @@
+{
+  "App": {
+    "Tra cuu": [
+      {
+        "id": 1,
+        "title": "Perplexity AI",
+        "link": "Perplexity.html",
+        "image": "./assets/img/avatar/perplexity.png"
+      },
+      {
+        "id": 2,
+        "title": "Google Scholar",
+        "link": "GGscholar.html",
+        "image": "./assets/img/avatar/ggscholar.png"
+      }
+    ],
+    "Soan van ban": [
+      {
+        "id": 1,
+        "title": "Claude",
+        "link": "Claude.html",
+        "image": "./assets/img/avatar/claude.jpg"
+      }
+    ],
+    "Kiem tra ngu phap": [
+      {
+        "id": 1,
+        "title": "Grammarly",
+        "link": "Grammarly.html",
+        "image": "./assets/img/avatar/grammarly.png"
+      }
+    ],
+    "Tao video": [
+      {
+        "id": 1,
+        "title": "Vidu AI",
+        "link": "Vidu.html",
+        "image": "./assets/img/avatar/vidu.png"
+      }
+    ],
+    "Lap trinh": [
+      {
+        "id": 1,
+        "title": "Github Copilot",
+        "link": "GithubCopilot.html",
+        "image": "./assets/img/avatar/githubcopilot.png"
+      }
+    ],
+    "Lam slide": [
+      {
+        "id": 1,
+        "title": "Tome",
+        "link": "Tome.html",
+        "image": "./assets/img/avatar/tome.png"
+      }
+    ],
+    "Tao anh": [
+      {
+        "id": 1,
+        "title": "Ideogram",
+        "link": "Ideogram.html",
+        "image": "./assets/img/avatar/ideogram.png"
+      }
+    ]
+  }
+}

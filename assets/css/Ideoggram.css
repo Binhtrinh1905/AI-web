@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --color-main: #34526f;
+  --color-text-dark: #000000;
+  --color-text-light: #ffffff;
+  --font: "Be Vietnam Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  background: linear-gradient(
+    66deg,
+    rgba(39, 35, 45, 1) 0%,
+    rgba(110, 91, 68, 1) 100%
+  );
+  background-repeat: no-repeat;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+/* Container */
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+@media (max-width: 1199.98px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (max-width: 575.98px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+/* End Container */
+/* Header */
+.header {
+  padding: 25px 0;
+  height: auto;
+  background-color: var(--color-text-dark);
+}
+
+.header .inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .inner-wrap .inner-logo img {
+  height: 40px;
+  width: auto;
+}
+.header .inner-wrap .inner-menu {
+  flex: 1;
+}
+.header .inner-wrap .inner-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.header .inner-wrap .inner-menu ul li a {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-text-light);
+}
+.header .inner-wrap .inner-menu ul li a:hover {
+  color: #c71e00;
+}
+.header .inner-wrap .inner-actions {
+  display: flex;
+  gap: 20px;
+}
+.header .inner-wrap .inner-actions a {
+  display: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #111111;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: var(--color-text-dark);
+}
+.header .inner-wrap .inner-actions a:hover {
+  background-color: var(--color-main);
+  color: var(--color-text-light);
+}
+/* End Header */
+/* Section-1 */
+body .section-1 {
+  padding: 60px 0;
+}
+body .section-1 .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(17, 17, 17, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding-bottom: 145px;
+  position: relative;
+}
+body .section-1 .inner-wrap .inner-content {
+  width: 50%;
+}
+body .section-1 .inner-wrap .inner-content .inner-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #d5c8b6;
+  margin-bottom: 15px;
+}
+body .section-1 .inner-wrap .inner-content .inner-title span {
+  font-size: 30px;
+}
+body .section-1 .inner-wrap .inner-content .inner-decs {
+  font-size: 20px;
+  font-weight: 400;
+  color: #d5c8b6;
+}
+body .section-1 .inner-wrap .inner-image {
+  width: 30%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+body .section-1 .inner-wrap .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*End Section-1 */
+/* Section-2 */
+body .section-2 {
+  margin-top: 100px;
+  padding: 60px 0;
+}
+body .section-2 .inner-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+body .section-2 .inner-list .inner-item {
+  padding: 0 30px;
+  text-align: center;
+  color: #d5c8b6;
+  border-right: 2px solid #d5c8b6;
+}
+body .section-2 .inner-list .inner-item:last-child {
+  border: 0;
+}
+body .section-2 .inner-list .inner-item .inner-title {
+  font-weight: 700;
+  font-size: 40px;
+}
+body .section-2 .inner-list .inner-item .inner-title-sub {
+  font-weight: 400;
+  font-size: 20px;
+}
+/* End Section-2 */
+/* Section-3 */
+.section-3 {
+  padding: 60px 0;
+}
+.section-3 .inner-box {
+  padding: 20px 10px;
+  background-color: rgb(17, 17, 17, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.section-3 .inner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+  text-align: end;
+  margin-bottom: 20px;
+}
+.section-3 .inner-box .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.section-3 .inner-box .inner-wrap .inner-content {
+  width: 40%;
+  font-weight: 400;
+  font-size: 20px;
+  color: #d5c8b6;
+}
+.section-3 .inner-box .inner-wrap .inner-image {
+  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-3 .inner-box .inner-wrap .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* End Section-3 */
+/* Section-4 */
+.section-4 {
+  margin-top: 180px;
+  padding: 60px 0;
+}
+.section-4 .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.section-4 .inner-wrap .inner-image {
+  width: 70%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.section-4 .inner-wrap .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-4 .inner-wrap .inner-content {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-4 .inner-wrap .inner-content .inner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+}
+.section-4 .inner-wrap .inner-content .inner-decs {
+  font-weight: 400;
+  font-size: 20px;
+  color: #d5c8b6;
+}
+.section-4 .inner-wrap .inner-content .inner-note {
+  font-weight: 400;
+  font-size: 20px;
+  color: #d5c8b6;
+}
+/* End Section-4 */
+
+/* Section-5 */
+.section-5 {
+  padding: 60px 0;
+}
+.section-5 .inner-title {
+  margin-bottom: 60px;
+}
+.section-5 .inner-title .inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section-5 .inner-title .inner-avatar {
+  width: 70px;
+  height: 70px;
+}
+.section-5 .inner-title .inner-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-5 .inner-title .inner-wrap .inner-content {
+  width: 50%;
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+}
+.section-5 .inner-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-5 .inner-list .inner-blog .inner-step {
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+  margin-bottom: 5px;
+}
+.section-5 .inner-list .inner-blog .inner-box {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: rgb(17, 17, 17, 0.25);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.section-5 .inner-list .inner-blog .inner-box .inner-image {
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  overflow: hidden;
+}
+.section-5 .inner-list .inner-blog .inner-box .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-5 .inner-list .inner-blog .inner-box .inner-content {
+  width: 20%;
+}
+.section-5 .inner-list .inner-blog:nth-child(2) .inner-step {
+  text-align: end;
+}
+.section-5 .inner-list .inner-blog:nth-child(2) .inner-box {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.section-5 .inner-list .inner-blog .inner-box .inner-content .inner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+  margin-bottom: 10px;
+}
+.section-5 .inner-list .inner-blog .inner-box .inner-content .inner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #d5c8b6;
+  margin-bottom: 10px;
+}
+.section-5 .inner-list .inner-blog .inner-box .inner-content .inner-decs {
+  font-weight: 400;
+  font-size: 20px;
+  color: #d5c8b6;
+}
+/* End Section-5 */
+/* Section-6 */
+.section-6 .image-bg {
+  width: 400px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 110px;
+  right: 100px;
+}
+.section-6 .image-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* End Section-6 */

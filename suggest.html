@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Trang Góp Ý</title>
+  </head>
+  <body>
+    <div class="alert-list"></div>
+
+    <header class="header">
+      <div class="container">
+        <div class="inner-wrap">
+          <!-- Logo -->
+          <a href="index.html" class="inner-logo">
+            <img src="./assets/img/logo.png" alt="NHONG NHACH LOGO" />
+          </a>
+          <!-- Menu -->
+          <div class="inner-menu">
+            <ul>
+              <li><a href="index.html">Trang Chủ</a></li>
+              <li><a href="#">Giới Thiệu</a></li>
+              <li><a href="suggest.html">Góp Ý</a></li>
+            </ul>
+          </div>
+          <!-- Action -->
+          <div class="inner-actions">
+            <a href="login.html" button-login> Đăng nhập </a>
+            <a href="register.html" button-register> Đăng ký </a>
+            <a href="#" button-logout> Đăng xuất </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="inner-form">
+          <h1 class="inner-title">Suggestion</h1>
+          <form id="form-suggest" class="form" suggest>
+            <div class="inner-group">
+              <label for="fullName"> Full name:</label>
+              <input
+                type="text"
+                placeholder="Nhập họ và tên..."
+                id="fullName"
+                name="fullName"
+              />
+            </div>
+            <div class="inner-group">
+              <label for="suggestion"> Suggestion:</label>
+              <input
+                type="text"
+                placeholder="Nhập ý kiến của bạn..."
+                id="suggestion"
+                name="suggestion"
+              />
+            </div>
+
+            <button class="inner-button">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./assets/js/script.js"></script>
+  </body>
+</html>
